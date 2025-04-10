@@ -1,0 +1,43 @@
+.h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+.form-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .styled-input {
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 250px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .styled-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .styled-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .styled-button:hover {
+    background-color: #0056b3;
+  }
+  
